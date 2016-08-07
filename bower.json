@@ -1,0 +1,36 @@
+{
+  "name": "md-banner",
+  "version": "0.0.0",
+  "description": "Material Design banner component.",
+  "authors": [
+    {
+      "name": "Luke Edwards",
+      "email": "luke@lukeed.com",
+      "homepage": "https://github.com/lukeed"
+    }
+  ],
+  "keywords": [
+    "riot",
+    "riotjs",
+    "riot-tag",
+    "md-banner"
+  ],
+  "main": "md-banner.tag",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/lukeed/md-banner/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "riot": "^2.3.0",
+    "md-colors": "^1.0.0"
+  },
+  "devDependencies": {}
+}
