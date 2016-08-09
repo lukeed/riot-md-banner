@@ -9,7 +9,6 @@
 $ bower install --save riot-md-banner
 ```
 
-
 ## Usage
 
 ```html
@@ -45,7 +44,13 @@ The banner height. Must include the units, eg: `250px`, `10vh`.
 
 Type: `string`
 
-Overlay an image on the background color.
+Overlay an image on the background color. 
+
+Providing a valid image path url will display that image. An invalid url (or `"true"`) will revert to the default image, which is `/img/md-banner.png`.
+
+```html
+<md-banner image="url('/assets/img/custom.png')" />
+```
 
 #### theme
 
