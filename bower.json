@@ -1,6 +1,6 @@
 {
   "name": "riot-md-banner",
-  "description": "Material Design banner component.",
+  "description": "Material Design banner component for Riot.js.",
   "authors": [
     {
       "name": "Luke Edwards",

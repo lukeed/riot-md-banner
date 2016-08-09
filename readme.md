@@ -1,6 +1,6 @@
 # riot-md-banner
 
-> Material Design banner component.
+> Material Design banner component for [Riot.js](https://github.com/riot/riot).
 
 
 ## Install
