@@ -1,4 +1,4 @@
-# md-banner
+# riot-md-banner
 
 > Material Design banner component.
 
@@ -6,32 +6,53 @@
 ## Install
 
 ```
-$ bower install --save md-banner
+$ bower install --save riot-md-banner
 ```
 
 
 ## Usage
 
-```js
-<md-banner prop="{ test }"></md-banner>
+```html
+<md-banner theme="primary" height="250px" bottom="-200px" image="true" />
 ```
 
 
 ## Options
 
-#### attr1
+#### bottom
+
+Type: `string`<br>
+Default: `null`
+
+Applies as a `margin-bottom` to the element. Ideal for negative values, which allows another element (eg, a card) to overlap the banner.
+
+
+#### color
+
+Type: `string`<br>
+Required: `false`
+
+If set, will apply as a class to the element, prepended with `theme--`. Identical to the [theme](#theme) option.
+
+#### height
+
+Type: `string`<br>
+Default: `30vh`
+
+The banner height. Must include the units, eg: `250px`, `10vh`.
+
+#### image
 
 Type: `string`
 
-Lorem ipsum.
+Overlay an image on the background color.
 
-#### attr2
+#### theme
 
-Type: `boolean`<br>
-Default: `false`
+Type: `string`<br>
+Required: `false`
 
-Lorem ipsum.
-
+If set, will apply as a class to the element, prepended with `theme--`. Identical to the [color](#color) option.
 
 ## License
 
