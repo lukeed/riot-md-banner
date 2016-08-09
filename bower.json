@@ -1,6 +1,5 @@
 {
-  "name": "md-banner",
-  "version": "0.0.0",
+  "name": "riot-md-banner",
   "description": "Material Design banner component.",
   "authors": [
     {
@@ -13,7 +12,11 @@
     "riot",
     "riotjs",
     "riot-tag",
-    "md-banner"
+    "md-banner",
+    "riot-md",
+    "banner",
+    "image",
+    "material design"
   ],
   "main": "md-banner.tag",
   "moduleType": [
@@ -29,7 +32,7 @@
     "tests"
   ],
   "dependencies": {
-    "riot": "^2.3.0",
+    "riot": "^2.5.0",
     "md-colors": "^1.0.0"
   },
   "devDependencies": {}
