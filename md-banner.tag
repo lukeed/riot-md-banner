@@ -1,19 +1,18 @@
-<md-banner>
-	<p onclick="{ onClick }">Hallo hallo!</p>
-
+<md-banner class="md-banner">
 	<script>
-		console.log('before `mount` event: ', this.root);
+		var self = this;
+		self.on('mount', function () {
+			var el = self.root;
 
-		onClick(e) {
-			alert('clicked!');
-		}
+			el.className += ' theme--' + (opts.color || opts.theme);
 
-		this.on('mount', function () {
-			console.log('mounted');
-		}.bind(this));
+			if (opts.image) {
+				el.className += ' md-banner__image';
+				el.style.backgroundImage = opts.image;
+			}
+
+			el.style.height = opts.height;
+			el.style.marginBottom = opts.bottom;
+		});
 	</script>
-
-	<style scoped>
-		@import "md-banner.sass";
-	</style>
 </md-banner>

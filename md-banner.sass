@@ -1,6 +1,23 @@
-@import "bower_components/md-colors/src/md-colors"
+/**
+ * Banner (Top Ribbon, optional Headers)
+ */
 
-$text-color : md-color('blue', '500')
+@import 'bower_components/md-colors/src/md-colors'
 
-:scope p
-  color: $text-color
+$banner-default-height     : 30vh
+$banner-default-color      : md-color('grey', '900')
+$banner-default-background : md-color('grey', '100')
+
+.md-banner
+	width: 100%
+	height: $banner-default-height
+	background: $banner-default-background
+	color: $banner-default-color
+	flex-shrink: 0
+
+	&__image
+		background-image: url('#{$img-path}/md-banner.png')
+		background-size: cover
+
+
+
