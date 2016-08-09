@@ -42,7 +42,8 @@ The banner height. Must include the units, eg: `250px`, `10vh`.
 
 #### image
 
-Type: `string`
+Type: `string`<br>
+Required: `false`
 
 Overlay an image on the background color. 
 
